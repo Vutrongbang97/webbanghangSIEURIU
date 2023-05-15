@@ -1,0 +1,46 @@
+#product-list .product {
+  margin: 8px;
+  width: calc(25% - 16px);
+}
+.myCard {
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.myDesc {
+  font-size: 13px;
+}
+
+.title-alert {
+  font-size: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+input[type=text]{
+  width: 40%;
+  border: 3px oldlace ;
+  transition: 0,25s;
+}
+.apply-discount-box{
+  margin-right: 60%;
+  
+}
+.modal-footer{
+  background-color: #848383;
+}
+.carousel-item{
+  height: 10%;
+}
+.change{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
