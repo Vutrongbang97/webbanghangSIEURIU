@@ -28,8 +28,13 @@ input[type=text]{
   border: 3px oldlace ;
   transition: 0,25s;
 }
+.modal-footer{
+  padding-right: 50px;
+  
+}
 .apply-discount-box{
   margin-right: 60%;
+  
   
 }
 .modal-footer{
@@ -44,3 +49,29 @@ input[type=text]{
   border-radius: 50%;
 }
 
+.news{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background-color: #1e1526;
+  
+}
+.overall{
+  width: 224px;
+  border: 2px #f1ebeb;
+  border-style: solid;
+  background-color: #fefefe;
+   
+}
+.newimg{
+  width: 220px;
+}
+
+
+.CI{
+  vertical-align: top;
+  justify-content: space-between;
+}

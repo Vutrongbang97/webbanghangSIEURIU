@@ -22,7 +22,7 @@
   <body>
     <!-- HEADER -->
     <div id="header">
-      <nav class="navbar bg-body-tertiary shadow-sm" style="background-color: black;">
+      <nav class="navbar bg-body-tertiary shadow-sm" style="background-color:  #160f1c ;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <div id="shopName"
@@ -46,6 +46,31 @@
         </div>
       </nav>
     </div>
+
+
+
+    <div class="news" >
+      
+
+      <div class="overall">
+        <img class="newimg" src="https://images.macrumors.com/t/oklWCcyyKTyqhWo3jQJuU_XQd2M=/1600x0/article-new/2022/11/iPhone-14-Pro-Purple-Side-Perspective-Feature-Purple.jpg" alt="">
+        <h5>Apple iPhone 15: Release date, Freatures and Rumors</h5>
+      </div>
+      <div class="overall">
+        <img class="newimg" src="https://mobileworld.com.vn/uploads/news/03_2023/Galaxy%20Z%20Fold%205-5.jpg" alt="">
+        <h5>Samsung Galaxy Z Fold 5: Everything we know so far</h5>
+      </div>
+      <div class="overall">
+        <img class="newimg" src="https://cdn1.hoanghamobile.com/tin-tuc/wp-content/uploads/2023/03/Motorola-Razr-2023-so-huu-vien-pin-nho-den-bat-ngo-1.jpeg" alt="">
+        <h5>Motorola Razr 2023: What we expected to see</h5>
+      </div>
+      <div class="overall">
+        <img class="newimg" src="https://dlcdnrog.asus.com/rog/media/1683756065840.webp" alt="">
+        <h5>Asus Rog Ally: Perfect handheld companion for gamers</h5>
+      </div>
+
+    </div>
+   
 
     
     <!-- CAROUSEL 
@@ -131,21 +156,48 @@
      </div>
     </div> 
     <!-- PRODUCT LIST -->
-    <div id="product-list" class="d-flex flex-wrap container">
+    <div id="product-list" class="d-flex flex-wrap container"></div>
+    <!-- HOME-MADE-FOOTER -->
+    <div class="end text-white" style="display: flex; padding-bottom: 15px; padding-left: 10px; padding-right: 30px; background-color: #3b274b; justify-content: space-between;">
+      <div class="CI" style="width: auto;">
+        <h5>CONTACT INFORMATION</h5>
+        <UL class="nav flex-column" style="padding-left: 20px;">
+          <H4>ANDRESS</H4>  
+          HaTrung-ThanhHoa 
+          <br>
+          <h4>PHONE</h4>
+          +84(0)********* 
+          <br>
+          <h4>EMAIL</h4>  
+          InfoTECHno@.Mart 
+          <br>
+          <h4>WORKING DAYS/HOURS</h4>  
+          Mon-Sat/7:00am-20:pm
+        </UL>
+      </div>
+      <div>
+        <H5>ABOUT US</H5>
+        <UL>
+          <P>FACEBOOK</P> <br>
+          <p>EMAIL</p> <br>
+          <p>YOUTUBE</p> <br>
+        </UL>
+      </div>
+      <div>
+        <div class="gain-news">
+          <form action="">
+            <label for=""><h6>Be the first to know</h6> <br>
+            <p>Get all the latest information about our newest products. Sign up for now!</p></label>
+            <input type="text" name="" id="">
+          </form>
+        </div>
+      </div>
 
-     
-     
     </div>
-    <!-- FOOTER -->
-   <div style="background-color: #a6a8a9;">
-    <div class="col mb-3">
-      <p>contact information</p>
-      <ul class="nav flex-column">
-        <li class=""></li>
-      </ul>
-    </div>
-  </div>
-        <!--
+
+    <!-- FOOTER 
+   
+        
           <div class="bg-dark">
       <footer class="m-0 row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
         <div class="col mb-3">
@@ -228,29 +280,29 @@
           </ul>
         </div>       
       </footer>
-    </div> -->
-    </div>
+    </div> 
+    </div>-->
     <!-- MODAL CART -->
     <div class="modal fade" id="modal-cart" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Giỏ hàng</h1>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Your cart</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body" id="modal-cart-content">
             
           </div>
-          <div class="modal-footer" >
+          <div class="modal-footer " style="display: flex;"  >
             <!-- BOX NHẬP MÃ GIẢM GIÁ -->
-            <div class="apply-discount-box">
+            <div class="apply-discount-box text-white">
               <form action="">
-                <label for="">Apply Discount Code:</label>
+                <label for=""><p>Apply Discount Code:</p> </label>
                 <input type="text" name="" id="">
               </form>
             </div>
 
-            <div class="text-end">
+            <div class="text-end" style="background-color: aliceblue; border: solid black 2px; padding: 10px;">
               <p>Order Total Incl.Tax:
                 <div class="price-box">
                   <span id="total">0</span>

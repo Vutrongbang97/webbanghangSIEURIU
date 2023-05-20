@@ -13,7 +13,7 @@ const getProducts = async () => {
 };
 
 const order = () => {
-  // nếu như tụi em có n điều kiền thì tụi em chỉ cần n-1 if
+ 
   if (productPickedList.length === 0) {
     return Swal.fire({
       title: "<p class='title-alert error'>THANH TOÁN KHÔNG THÀNH CÔNG </p>",
@@ -58,7 +58,7 @@ var renderProductPickedList = (productPickedList) => {
   if (productPickedList.length === 0) {
     document.getElementById("modal-cart-content").innerHTML = `
       <div class="text-center">
-      <img src="https://assets.materialup.com/uploads/16e7d0ed-140b-4f86-9b7e-d9d1c04edb2b/preview.png"  style="height: 320px;">
+      <img src="https://assets.materialup.com/uploads/16e7d0ed-140b-4f86-9b7e-d9d1c04edb2b/preview.png"  style="height: 230px;">
       <h4>Oh! Your cart is emty</h4>
       </div>
     `;
@@ -153,3 +153,4 @@ getProducts().then((results) => {
   renderProductList(productList);
   
 });
+
